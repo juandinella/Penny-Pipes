@@ -4,7 +4,7 @@
   "description": "Plugabble pipes for a composable gulp stream",
   "main": "dist/pipes.js",
   "module": "dist/pipes.modular.js",
-  "repository": "git@github.com:juandinella/penny-pipes.git",
+  "repository": "https://github.com/juandinella/penny-pipes",
   "author": "Juan Di Nella <juan.dinella@gmail.com>",
   "license": "MIT",
   "files": [
@@ -47,6 +47,5 @@
   },
   "eslintConfig": {
     "extends": "@pixel2html/eslint-config"
-  },
-  "gitHead": "39edb3a87de19aa2b93c9fe2608e6c43373ea77d"
+  }
 }
