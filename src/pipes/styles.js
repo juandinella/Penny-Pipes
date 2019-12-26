@@ -7,7 +7,6 @@ import sourcemaps from 'gulp-sourcemaps'
 
 import autoprefixer from 'autoprefixer'
 import postCssModules from 'postcss-modules'
-import browsers from '@pixel2html/browserlist'
 import path from 'path'
 import set from 'lodash.set'
 
@@ -19,7 +18,7 @@ const styles = ({
   production = false,
   postCssPlugins = []
 }) => {
-  const basePlugins = [autoprefixer({ browsers })]
+  const basePlugins = [autoprefixer({ })]
 
   if (modules) {
     basePlugins.push(
