@@ -1,6 +1,6 @@
 {
   "name": "@juandinella/penny-pipes",
-  "version": "1.5.0",
+  "version": "1.5.2",
   "description": "Plugabble pipes for a composable gulp stream",
   "main": "dist/pipes.js",
   "module": "dist/pipes.modular.js",
@@ -46,11 +46,11 @@
     "sass-module-importer": "^1.4.0"
   },
   "devDependencies": {
-    "@pixel2html/eslint-config": "^1.7.0",
+    "@juandinella/eslint-config": "^1.0.0",
     "eslint": "^6.8.0",
     "rollup": "^1.27.14"
   },
   "eslintConfig": {
-    "extends": "@pixel2html/eslint-config"
+    "extends": "@juandinella/eslint-config"
   }
 }
