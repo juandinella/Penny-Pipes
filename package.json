@@ -1,6 +1,6 @@
 {
   "name": "@juandinella/penny-pipes",
-  "version": "1.5.9",
+  "version": "1.6.0",
   "description": "Plugabble pipes for a composable gulp stream",
   "main": "dist/pipes.js",
   "module": "dist/pipes.modular.js",
@@ -36,7 +36,7 @@
     "gulp-pug": "^4.0.1",
     "gulp-purifycss": "^0.2.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "lazypipe": "^1.0.2",
     "lodash.set": "^4.3.2",

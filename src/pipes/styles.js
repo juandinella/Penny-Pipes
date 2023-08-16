@@ -1,6 +1,6 @@
 import lazypipe from 'lazypipe'
 import moduleImporter from 'sass-module-importer'
-import sass from 'gulp-sass'
+import gulpSass from 'gulp-sass';
 import postCss from 'gulp-postcss'
 import concat from 'gulp-concat'
 import sourcemaps from 'gulp-sourcemaps'
@@ -38,7 +38,7 @@ const styles = ({
   const postCssPlugs = [...basePlugins, ...postCssPlugins]
 
   const baseStyles = lazypipe()
-    .pipe(sass, { importer: moduleImporter() })
+    .pipe(gulpSass, { importer: moduleImporter() })
     .pipe(postCss, postCssPlugs)
     .pipe(concat, name)
 
